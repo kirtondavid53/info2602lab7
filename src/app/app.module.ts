@@ -15,11 +15,15 @@ import {MatInputModule} from '@angular/material/input';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatListModule} from '@angular/material/list';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { LoginComponent } from './login/login.component';
+import { TodoComponent } from './todo/todo.component';
 //End angular material components
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    TodoComponent
   ],
   imports: [
     MatCheckboxModule,
